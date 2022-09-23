@@ -13,7 +13,14 @@
 
 ## Defer and Stream
 
+- [Slides](https://slides.com/moonhighway/prod-ready-graphql)
+
 ## Rover & Apollo Studio
 
+- [Slides](https://slides.com/moonhighway/apollo-tooling/)
 
+## Security
 
+## Error Handling
+
+## Caching

@@ -21,6 +21,7 @@
 ## Security
 
 - [Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html)
+- [Securing a Federated Graph](https://www.apollographql.com/docs/enterprise-guide/graph-security/)
 
 ## Error Handling
 

@@ -22,6 +22,7 @@
 
 - [Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html)
 - [Securing a Federated Graph](https://www.apollographql.com/docs/enterprise-guide/graph-security/)
+- [Protected Variants](https://www.apollographql.com/docs/studio/org/graphs/#protected-variants-enterprise-only)
 
 ## Error Handling
 

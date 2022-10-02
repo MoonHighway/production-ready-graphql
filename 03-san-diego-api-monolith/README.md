@@ -1,5 +1,7 @@
 # San Diego API 🌞
 
+For the lab instructions, find the `LAB_INSTRUCTIONS.md` file in this folder.
+
 To use this project, run:
 
 ```bash

@@ -19,10 +19,16 @@
 
 - [Slides](https://slides.com/moonhighway/apollo-tooling/)
 - [Snowtooth Monolith Project]()
+- [Lab: San Diego API]()
+- [Lab Instructions]()
+- [Cheatsheet]()
 
-## Managed Federation 
+## Managed Federation
 
 - [Snowtooth Supergraph Project]()
+- [Lab: San Diego Federated API]()
+- [Lab Instructions]()
+- [Cheatsheet]()
 
 ## Security
 

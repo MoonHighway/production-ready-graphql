@@ -13,26 +13,27 @@
 ## Defer and Stream
 
 - [Slides](https://slides.com/moonhighway/prod-ready-graphql)
-- [Defer and Stream Demo]()
+- [Defer and Stream Demo](https://github.com/MoonHighway/production-ready-graphql/tree/main/01-defer-stream)
 
 ## Rover & Apollo Studio
 
 - [Slides](https://slides.com/moonhighway/apollo-tooling/)
-- [Snowtooth Monolith Project]()
-- [Lab: San Diego API]()
-- [Lab Instructions]()
-- [Cheatsheet]()
+- [Snowtooth Monolith Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/02-snowtooth-monolith)
+- [Lab: San Diego API](https://github.com/MoonHighway/production-ready-graphql/tree/main/03-san-diego-api-monolith)
+- [Lab Instructions](https://github.com/MoonHighway/production-ready-graphql/blob/main/03-san-diego-api-monolith/LAB_INSTRUCTIONS.md)
+- [Cheatsheet](https://github.com/MoonHighway/production-ready-graphql/blob/main/resources/Monolith/RoverCheatsheet-Monolith.md)
 
 ## Managed Federation
 
-- [Snowtooth Supergraph Project]()
-- [Lab: San Diego Federated API]()
+- [Snowtooth Supergraph Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/04-snowtooth-supergraph)
+- [Lab: San Diego Federated API](https://github.com/MoonHighway/production-ready-graphql/tree/main/05-san-diego-federated-api)
 - [Lab Instructions]()
 - [Cheatsheet]()
 
 ## Security
 
-- [Snowtooth Security Project]
+- [Snowtooth Security Project - Start](https://github.com/MoonHighway/production-ready-graphql/tree/main/06-snowtooth-security/start)
+- [Snowtooth Security Project - Finished](https://github.com/MoonHighway/production-ready-graphql/tree/main/06-snowtooth-security/finished)
 - [Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html)
 - [Securing a Federated Graph](https://www.apollographql.com/docs/enterprise-guide/graph-security/)
 - [Protected Variants](https://www.apollographql.com/docs/studio/org/graphs/#protected-variants-enterprise-only)
@@ -40,5 +41,3 @@
 ## Error Handling
 
 - [Error Handling by Sasha Solomon](https://sachee.medium.com/200-ok-error-handling-in-graphql-7ec869aec9bc)
-
-## Caching

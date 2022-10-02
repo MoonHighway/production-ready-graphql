@@ -1,0 +1,9 @@
+type CityDetails {
+  population: Int!
+  avgTemp: Int!
+  sunshine: Boolean!
+}
+
+type Query {
+  details: CityDetails!
+}

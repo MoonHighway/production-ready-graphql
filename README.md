@@ -13,15 +13,20 @@
 ## Defer and Stream
 
 - [Slides](https://slides.com/moonhighway/prod-ready-graphql)
+- [Defer and Stream Demo]()
 
 ## Rover & Apollo Studio
 
 - [Slides](https://slides.com/moonhighway/apollo-tooling/)
+- [Snowtooth Monolith Project]()
+
+## Managed Federation 
+
+- [Snowtooth Supergraph Project]()
 
 ## Security
 
-The demo app for this section is in the `snowtooth-security` folder. 
-
+- [Snowtooth Security Project]
 - [Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html)
 - [Securing a Federated Graph](https://www.apollographql.com/docs/enterprise-guide/graph-security/)
 - [Protected Variants](https://www.apollographql.com/docs/studio/org/graphs/#protected-variants-enterprise-only)

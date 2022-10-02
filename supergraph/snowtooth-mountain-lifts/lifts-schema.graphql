@@ -1,0 +1,33 @@
+  extend schema
+    @link(
+      url: "https://specs.apollo.dev/federation/v2.0",
+      import: ["@key"]
+    )
+
+  type Lift @key(fields: "id") {
+    id: ID!
+    name: String!
+    status: LiftStatus!
+    capacity: Int!
+    night: Boolean!
+    elevationGain: Int!
+    trailAccess: [Trail!]!
+  }
+
+  type Trail @key(fields: "id") {
+    id: ID!
+    liftAccess: [Lift!]!
+  }
+  enum LiftStatus {
+    OPEN
+    HOLD
+    CLOSED
+  }
+  type Query {
+    allLifts(status: LiftStatus): [Lift!]!
+    Lift(id: ID!): Lift!
+    liftCount(status: LiftStatus): Int!
+  }
+  type Mutation {
+    setLiftStatus(id: ID!, status: LiftStatus!): Lift!
+  }

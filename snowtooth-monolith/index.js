@@ -58,7 +58,9 @@ const resolvers = {
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
+  mocks: true, 
+  mockEntireSchema: false
 });
 
 server.listen({port: process.env.PORT || 4000}).then(({ url }) => {

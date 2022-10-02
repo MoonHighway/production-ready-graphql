@@ -1,0 +1,34 @@
+scalar Date
+
+type Customer @key(fields: "username") {
+  username: ID!
+  name: String!
+  dateCreated: Date
+}
+
+extend type Pet @key(fields: "id") {
+  id: ID! @external
+  inCareOf: Customer
+}
+
+input CreateAccountInput {
+  name: String!
+  username: ID!
+  password: String!
+}
+
+type LogInPayload {
+  customer: Customer
+  token: String!
+}
+
+type Query {
+  totalCustomers: Int!
+  allCustomers: [Customer!]!
+  me: Customer
+}
+
+type Mutation {
+  createAccount(input: CreateAccountInput!): Customer!
+  logIn(username: ID!, password: String!): LogInPayload!
+}

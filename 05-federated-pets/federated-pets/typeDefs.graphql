@@ -1,0 +1,56 @@
+scalar Date
+
+type Pet @key(fields: "id") {
+  id: ID!
+  name: String!
+  weight: Float
+  category: PetCategory!
+  status: PetStatus
+  photo: Photo
+}
+
+extend type Customer @key(fields: "username") {
+  username: ID! @external
+  currentPets: [Pet!]!
+  checkoutHistory: [Checkout!]!
+}
+
+enum PetCategory {
+  CAT
+  DOG
+  RABBIT
+  STINGRAY
+}
+
+enum PetStatus {
+  AVAILABLE
+  CHECKEDOUT
+}
+
+type Photo {
+  full: String
+  thumb: String
+}
+
+type Checkout {
+  pet: Pet
+  checkOutDate: Date!
+  checkInDate: Date!
+  late: Boolean
+}
+
+type CheckOutPayload {
+  pet: Pet
+  checkOutDate: Date
+}
+
+type Query {
+  totalPets(status: PetStatus): Int!
+  allPets(category: PetCategory, status: PetStatus): [Pet!]!
+  petById(id: ID!): Pet
+}
+
+type Mutation {
+  checkOut(id: ID!): CheckOutPayload!
+  checkIn(id: ID!): Checkout!
+}

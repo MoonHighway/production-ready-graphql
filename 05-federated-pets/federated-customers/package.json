@@ -1,0 +1,19 @@
+{
+  "name": "federated-customers",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon . -e graphql,js,json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/subgraph": "^2.1.3",
+    "apollo-server": "^3.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

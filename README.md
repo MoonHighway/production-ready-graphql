@@ -41,3 +41,4 @@
 ## Error Handling
 
 - [Error Handling by Sasha Solomon](https://sachee.medium.com/200-ok-error-handling-in-graphql-7ec869aec9bc)
+- [Subgraph Errors](https://www.apollographql.com/docs/router/configuration/subgraph-error-inclusion)

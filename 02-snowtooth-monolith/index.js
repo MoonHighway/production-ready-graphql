@@ -1,4 +1,8 @@
-const { ApolloServer, gql } = require("apollo-server");
+const { ApolloServer } = require("@apollo/server");
+const {
+  startStandaloneServer,
+} = require("@apollo/server/standalone");
+
 const { GraphQLScalarType } = require("graphql");
 const fs = require("fs");
 
@@ -77,12 +81,13 @@ const resolvers = {
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  mocks: true,
-  mockEntireSchema: false,
 });
 
-server
-  .listen({ port: process.env.PORT || 4000 })
-  .then(({ url }) => {
-    console.log(`Server running at ${url}`);
+async function startApolloServer() {
+  const server = new ApolloServer({ typeDefs, resolvers });
+  const { url } = await startStandaloneServer(server, {
+    listen: { port: 4000 },
   });
+  console.log(`Server running at ${url}`);
+}
+startApolloServer();

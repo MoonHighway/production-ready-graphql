@@ -10,10 +10,7 @@
 - **Eve Porcello**: [Twitter](https://twitter.com/eveporcello) | [Email](mailto:eve@moonhighway.com)
 - **Moon Highway Training**: [Moon Highway Website](https://www.moonhighway.com) | [Mailing List](http://bit.ly/moonhighway) | [Articles](https://www.moonhighway.com/articles)
 
-## Defer and Stream
-
-- [Slides](https://slides.com/moonhighway/prod-ready-graphql)
-- [Defer and Stream Demo](https://github.com/MoonHighway/production-ready-graphql/tree/main/01-defer-stream)
+## Apollo Client
 
 ## Rover & Apollo Studio
 

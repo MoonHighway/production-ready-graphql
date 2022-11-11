@@ -1,0 +1,22 @@
+{
+  "name": "trail-graphql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "PORT=5002 nodemon . -e graphql,js,json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.1.1",
+    "@apollo/subgraph": "^2.1.4",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

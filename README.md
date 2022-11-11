@@ -10,8 +10,6 @@
 - **Eve Porcello**: [Twitter](https://twitter.com/eveporcello) | [Email](mailto:eve@moonhighway.com)
 - **Moon Highway Training**: [Moon Highway Website](https://www.moonhighway.com) | [Mailing List](http://bit.ly/moonhighway) | [Articles](https://www.moonhighway.com/articles)
 
-## Apollo Client
-
 ## Rover & Apollo Studio
 
 - [Slides](https://slides.com/moonhighway/apollo-tooling/)
@@ -22,6 +20,8 @@
 
 ## Managed Federation
 
+- [https://snowtooth-mountain-lifts.herokuapp.com](https://snowtooth-mountain-lifts.herokuapp.com)
+- [https://snowtooth-mountain-trails.herokuapp.com](https://snowtooth-mountain-trails.herokuapp.com)
 - [Snowtooth Supergraph Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/03-snowtooth-supergraph)
 
 ## Security

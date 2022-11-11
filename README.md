@@ -26,8 +26,8 @@
 
 ## Security
 
-- [Snowtooth Security Project - Start](https://github.com/MoonHighway/production-ready-graphql/tree/main/06-snowtooth-security/start)
-- [Snowtooth Security Project - Finished](https://github.com/MoonHighway/production-ready-graphql/tree/main/06-snowtooth-security/finished)
+- [Snowtooth Security Project - Start](https://github.com/MoonHighway/production-ready-graphql/tree/main/05-snowtooth-security/start)
+- [Snowtooth Security Project - Finished](https://github.com/MoonHighway/production-ready-graphql/tree/main/05-snowtooth-security/finished)
 - [Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html)
 - [Securing a Federated Graph](https://www.apollographql.com/docs/enterprise-guide/graph-security/)
 - [Protected Variants](https://www.apollographql.com/docs/studio/org/graphs/#protected-variants-enterprise-only)

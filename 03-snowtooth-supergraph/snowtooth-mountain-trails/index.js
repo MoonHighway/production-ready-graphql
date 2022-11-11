@@ -59,7 +59,7 @@ async function startApolloServer() {
     }),
   });
   const { url } = await startStandaloneServer(server, {
-    listen: { port: 4000 },
+    listen: { port: 5002 },
   });
   console.log(`Server running at ${url}`);
 }

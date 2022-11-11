@@ -15,17 +15,14 @@
 ## Rover & Apollo Studio
 
 - [Slides](https://slides.com/moonhighway/apollo-tooling/)
-- [Snowtooth Monolith Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/02-snowtooth-monolith)
-- [Lab: San Diego API](https://github.com/MoonHighway/production-ready-graphql/tree/main/03-san-diego-api-monolith)
-- [Lab Instructions](https://github.com/MoonHighway/production-ready-graphql/blob/main/03-san-diego-api-monolith/LAB_INSTRUCTIONS.md)
+- [Snowtooth Monolith Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/01-snowtooth-monolith)
+- [Lab: San Diego API](https://github.com/MoonHighway/production-ready-graphql/tree/main/02-san-diego-api-monolith)
+- [Lab Instructions](https://github.com/MoonHighway/production-ready-graphql/blob/main/02-san-diego-api-monolith/LAB_INSTRUCTIONS.md)
 - [Cheatsheet](https://github.com/MoonHighway/production-ready-graphql/blob/main/resources/Monolith/RoverCheatsheet-Monolith.md)
 
 ## Managed Federation
 
-- [Snowtooth Supergraph Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/04-snowtooth-supergraph)
-- [Lab: San Diego Federated API](https://github.com/MoonHighway/production-ready-graphql/tree/main/05-san-diego-federated-api)
-- [Lab Instructions]()
-- [Cheatsheet]()
+- [Snowtooth Supergraph Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/03-snowtooth-supergraph)
 
 ## Security
 

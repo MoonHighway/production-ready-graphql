@@ -10,27 +10,24 @@
 - **Eve Porcello**: [Twitter](https://twitter.com/eveporcello) | [Email](mailto:eve@moonhighway.com)
 - **Moon Highway Training**: [Moon Highway Website](https://www.moonhighway.com) | [Mailing List](http://bit.ly/moonhighway) | [Articles](https://www.moonhighway.com/articles)
 
-## Apollo Client
-
 ## Rover & Apollo Studio
 
 - [Slides](https://slides.com/moonhighway/apollo-tooling/)
-- [Snowtooth Monolith Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/02-snowtooth-monolith)
-- [Lab: San Diego API](https://github.com/MoonHighway/production-ready-graphql/tree/main/03-san-diego-api-monolith)
-- [Lab Instructions](https://github.com/MoonHighway/production-ready-graphql/blob/main/03-san-diego-api-monolith/LAB_INSTRUCTIONS.md)
+- [Snowtooth Monolith Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/01-snowtooth-monolith)
+- [Lab: San Diego API](https://github.com/MoonHighway/production-ready-graphql/tree/main/02-san-diego-api-monolith)
+- [Lab Instructions](https://github.com/MoonHighway/production-ready-graphql/blob/main/02-san-diego-api-monolith/LAB_INSTRUCTIONS.md)
 - [Cheatsheet](https://github.com/MoonHighway/production-ready-graphql/blob/main/resources/Monolith/RoverCheatsheet-Monolith.md)
 
 ## Managed Federation
 
-- [Snowtooth Supergraph Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/04-snowtooth-supergraph)
-- [Lab: San Diego Federated API](https://github.com/MoonHighway/production-ready-graphql/tree/main/05-san-diego-federated-api)
-- [Lab Instructions]()
-- [Cheatsheet]()
+- [https://snowtooth-mountain-lifts.herokuapp.com](https://snowtooth-mountain-lifts.herokuapp.com)
+- [https://snowtooth-mountain-trails.herokuapp.com](https://snowtooth-mountain-trails.herokuapp.com)
+- [Snowtooth Supergraph Project](https://github.com/MoonHighway/production-ready-graphql/tree/main/03-snowtooth-supergraph)
 
 ## Security
 
-- [Snowtooth Security Project - Start](https://github.com/MoonHighway/production-ready-graphql/tree/main/06-snowtooth-security/start)
-- [Snowtooth Security Project - Finished](https://github.com/MoonHighway/production-ready-graphql/tree/main/06-snowtooth-security/finished)
+- [Snowtooth Security Project - Start](https://github.com/MoonHighway/production-ready-graphql/tree/main/05-snowtooth-security/start)
+- [Snowtooth Security Project - Finished](https://github.com/MoonHighway/production-ready-graphql/tree/main/05-snowtooth-security/finished)
 - [Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html)
 - [Securing a Federated Graph](https://www.apollographql.com/docs/enterprise-guide/graph-security/)
 - [Protected Variants](https://www.apollographql.com/docs/studio/org/graphs/#protected-variants-enterprise-only)
